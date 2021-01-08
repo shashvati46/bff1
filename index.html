@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best friend form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1><strong> <br> Best Friend Application</strong></h1>
+            <br> <img src="https://i1.faceprep.in/ProGrad/hello-minion.png" alt="Minion">
+            <p>
+                <br> Hey There ! I need a new best friend because the last one escaped.
+                Not my fault though :). I am a little moody but super cool.
+            </p>
+            <h3>
+                <br><br> Wanna Be Friends? <br> <br>
+            </h3>
+            <form action="mailto:sharvari.maheshk@gmail.com?Subject=My Best Friend Application " method="POST" enctype="text/plain">
+                <label for="name">What is Your Name</label>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+                <label for="nickname">What's your Nickname ?</label>
+                <input type="text" name="nickname" id="nickname" placeholder="Johnny">
+                <label for="age">What's your age ?</label>
+                <input type="number" name="age" id="age" min="14" max="18">
+
+                <label for="superhero"> Who is your favorite superhero ?</label>
+                <br>
+                <input type="checkbox" name="blackwidow" id="blackwidow">
+                <label for="blackwidow">BlackWidow </label>
+                <br>
+                <input type="checkbox" name="wonderwoman" id="wonderwoman">
+                <label for="wonderwoman"><b> WonderWoman</b></label>
+                <br>
+                <input type="checkbox" name="SpiderMan" id="SpiderMan">
+                <label for="batwoman"><b>Batwoman</b></label> <br> <br>
+
+
+                <label for="why">Why do you wanna be my friend ?</label>
+                <textarea name="why" id="why" cols="30" rows="3">I wanna be friends with you because .....</textarea>
+                <input type="submit" value="LET'S BE FRIENDS">
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
